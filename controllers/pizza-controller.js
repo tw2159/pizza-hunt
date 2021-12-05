@@ -27,7 +27,6 @@ const pizzaController = {
           res.status(400).json(err);
         });
     },
-  }
 
   // createPizza
 createPizza({ body }, res) {
